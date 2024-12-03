@@ -1,41 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventify.MassTransit.Tests", "MassTransit\CloudEventify.MassTransit.Tests\CloudEventify.MassTransit.Tests.csproj", "{0B86FD16-2A60-4F31-8682-3A9539F10323}"
-EndProject
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35507.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventify.MassTransit", "MassTransit\CloudEventify.MassTransit\CloudEventify.MassTransit.csproj", "{5DDA7642-DF55-4D9D-829D-85EE744BB6C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventify.MassTransit.IntegrationTests", "MassTransit\CloudEventify.MassTransit.IntegrationTests\CloudEventify.MassTransit.IntegrationTests.csproj", "{426EC264-6DF2-4187-AA12-C8965634E462}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprApp", "DaprApp\DaprApp.csproj", "{6EBF260C-D04E-48D5-99F9-5790817F5595}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprApp.IntegrationTests", "DaprApp.IntegrationTests\DaprApp.IntegrationTests.csproj", "{976A9E50-ACDA-4738-8D76-352462875F26}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{DA290D4E-0476-4953-87C0-B30F8C62A263}"
-ProjectSection(SolutionItems) = preProject
-	appveyor.yml = appveyor.yml
-	.gitignore = .gitignore
-	README.md = README.md
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MassTransit", "MassTransit", "{E89E8096-5E2A-484A-8D4C-7E4A0C2E5F09}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dapr", "Dapr", "{6E3F98B2-0CDF-48BC-BAD2-682159E631D7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventify.Dapr", "Dapr\CloudEventify.Dapr\CloudEventify.Dapr.csproj", "{E10D5F56-4F70-4B10-A116-A11B342D42CF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventify.Dapr.IntegrationTests", "Dapr\CloudEventify.Dapr.IntegrationTests\CloudEventify.Dapr.IntegrationTests.csproj", "{2B00DCB8-9483-4597-9B24-5BE338A1D873}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventify.Rebus.IntegrationTests", "Rebus\CloudEventify.Rebus.IntegrationTests\CloudEventify.Rebus.IntegrationTests.csproj", "{D2D6EA38-194F-4DC3-BF99-7E8ADEF8A48D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rebus", "Rebus", "{F4CDDE17-BD5E-4495-94E0-44592CCB015B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventify.Rebus", "Rebus\CloudEventify.Rebus\CloudEventify.Rebus.csproj", "{186CAC6F-3AD8-4D9F-AD3D-81E4BF8828A2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventify.Rebus.Tests", "Rebus\CloudEventify.Rebus.Tests\CloudEventify.Rebus.Tests.csproj", "{05FCC259-5E44-4B2A-9901-DF7B116095C1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventify", "CloudEventify\CloudEventify.csproj", "{6E57FD1F-2509-4E71-AE76-A9D919A77F27}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventify.Tests", "CloudEventify.Tests\CloudEventify.Tests.csproj", "{40078691-2A19-4E8B-93CA-EB234037C094}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,63 +22,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B86FD16-2A60-4F31-8682-3A9539F10323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B86FD16-2A60-4F31-8682-3A9539F10323}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B86FD16-2A60-4F31-8682-3A9539F10323}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B86FD16-2A60-4F31-8682-3A9539F10323}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5DDA7642-DF55-4D9D-829D-85EE744BB6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5DDA7642-DF55-4D9D-829D-85EE744BB6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DDA7642-DF55-4D9D-829D-85EE744BB6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DDA7642-DF55-4D9D-829D-85EE744BB6C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{426EC264-6DF2-4187-AA12-C8965634E462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{426EC264-6DF2-4187-AA12-C8965634E462}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{426EC264-6DF2-4187-AA12-C8965634E462}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{426EC264-6DF2-4187-AA12-C8965634E462}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6EBF260C-D04E-48D5-99F9-5790817F5595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EBF260C-D04E-48D5-99F9-5790817F5595}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EBF260C-D04E-48D5-99F9-5790817F5595}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EBF260C-D04E-48D5-99F9-5790817F5595}.Release|Any CPU.Build.0 = Release|Any CPU
-		{976A9E50-ACDA-4738-8D76-352462875F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{976A9E50-ACDA-4738-8D76-352462875F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{976A9E50-ACDA-4738-8D76-352462875F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{976A9E50-ACDA-4738-8D76-352462875F26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E10D5F56-4F70-4B10-A116-A11B342D42CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E10D5F56-4F70-4B10-A116-A11B342D42CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E10D5F56-4F70-4B10-A116-A11B342D42CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E10D5F56-4F70-4B10-A116-A11B342D42CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B00DCB8-9483-4597-9B24-5BE338A1D873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B00DCB8-9483-4597-9B24-5BE338A1D873}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B00DCB8-9483-4597-9B24-5BE338A1D873}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B00DCB8-9483-4597-9B24-5BE338A1D873}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2D6EA38-194F-4DC3-BF99-7E8ADEF8A48D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2D6EA38-194F-4DC3-BF99-7E8ADEF8A48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2D6EA38-194F-4DC3-BF99-7E8ADEF8A48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2D6EA38-194F-4DC3-BF99-7E8ADEF8A48D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{186CAC6F-3AD8-4D9F-AD3D-81E4BF8828A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{186CAC6F-3AD8-4D9F-AD3D-81E4BF8828A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{186CAC6F-3AD8-4D9F-AD3D-81E4BF8828A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{186CAC6F-3AD8-4D9F-AD3D-81E4BF8828A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{05FCC259-5E44-4B2A-9901-DF7B116095C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05FCC259-5E44-4B2A-9901-DF7B116095C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05FCC259-5E44-4B2A-9901-DF7B116095C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05FCC259-5E44-4B2A-9901-DF7B116095C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E57FD1F-2509-4E71-AE76-A9D919A77F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E57FD1F-2509-4E71-AE76-A9D919A77F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E57FD1F-2509-4E71-AE76-A9D919A77F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E57FD1F-2509-4E71-AE76-A9D919A77F27}.Release|Any CPU.Build.0 = Release|Any CPU
-		{40078691-2A19-4E8B-93CA-EB234037C094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40078691-2A19-4E8B-93CA-EB234037C094}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40078691-2A19-4E8B-93CA-EB234037C094}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40078691-2A19-4E8B-93CA-EB234037C094}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D2D6EA38-194F-4DC3-BF99-7E8ADEF8A48D} = {F4CDDE17-BD5E-4495-94E0-44592CCB015B}
-		{186CAC6F-3AD8-4D9F-AD3D-81E4BF8828A2} = {F4CDDE17-BD5E-4495-94E0-44592CCB015B}
-		{05FCC259-5E44-4B2A-9901-DF7B116095C1} = {F4CDDE17-BD5E-4495-94E0-44592CCB015B}
 		{5DDA7642-DF55-4D9D-829D-85EE744BB6C3} = {E89E8096-5E2A-484A-8D4C-7E4A0C2E5F09}
-		{426EC264-6DF2-4187-AA12-C8965634E462} = {E89E8096-5E2A-484A-8D4C-7E4A0C2E5F09}
-		{0B86FD16-2A60-4F31-8682-3A9539F10323} = {E89E8096-5E2A-484A-8D4C-7E4A0C2E5F09}
-		{E10D5F56-4F70-4B10-A116-A11B342D42CF} = {6E3F98B2-0CDF-48BC-BAD2-682159E631D7}
-		{2B00DCB8-9483-4597-9B24-5BE338A1D873} = {6E3F98B2-0CDF-48BC-BAD2-682159E631D7}
 	EndGlobalSection
 EndGlobal

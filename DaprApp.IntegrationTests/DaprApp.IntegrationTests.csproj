@@ -25,10 +25,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\DaprApp\DaprApp.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
         <None Update="components\**">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>

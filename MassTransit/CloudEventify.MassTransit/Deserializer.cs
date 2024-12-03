@@ -97,8 +97,13 @@ public class Deserializer : IMessageDeserializer
             {
                 message = null;
                 return false;
-            }
-        }
+			}
+			catch (InvalidCastException)
+			{
+				message = null;
+				return false;
+			}
+		}
 
         bool SerializerContext.TryGetMessage(Type messageType, out object message) => 
             throw new NotImplementedException();

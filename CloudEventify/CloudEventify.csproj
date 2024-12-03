@@ -9,27 +9,27 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="CloudNative.CloudEvents" Version="2.4.0" />
-      <PackageReference Include="CloudNative.CloudEvents.SystemTextJson" Version="2.4.0" />
-      <PackageReference Include="PolySharp" Version="1.14.1">
+      <PackageReference Include="CloudNative.CloudEvents" Version="2.8.0" />
+      <PackageReference Include="CloudNative.CloudEvents.SystemTextJson" Version="2.8.0" />
+      <PackageReference Include="PolySharp" Version="1.15.0">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-      <PackageReference Include="System.Text.Json" Version="6.0.6" />
+      <PackageReference Include="System.Text.Json" Version="9.0.0" />
     </ItemGroup>
 
     <PropertyGroup>
-        <Authors>Manuel Riezebosch</Authors>
+        <Authors>Paw Madsen</Authors>
         <NeutralLanguage>en-US</NeutralLanguage>
-        <PackageId>CloudEventify</PackageId>
+        <PackageId>Nobly.CloudEvents</PackageId>
         <Description>Use cloud events for pub/sub with major frameworks.</Description>
         <PackageReleaseNotes></PackageReleaseNotes>
         <PackageTags>cloudevents;cloud;events;rebus;masstransit</PackageTags>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/riezebosch/CloudEventify.git</RepositoryUrl>
-        <Version>0.0.1</Version>
+        <RepositoryUrl>https://github.com/NoblyDk/CloudEventify.git</RepositoryUrl>
+        <Version>0.0.3</Version>
     </PropertyGroup>
 
     <ItemGroup>
